@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Canteen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>College Canteen</h1>
+        <p>Delicious food right on campus!</p>
+    </header>
+
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#specials">Specials</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu">
+            <div class="menu-item" data-item="Chicken Burger">
+                <h3>Chicken Burger</h3>
+                <p>Juicy chicken patty with fresh veggies and special sauce.</p>
+                <form class="order-form" action="#" method="post">
+                    <label for="quantity_chicken_burger">Quantity:</label>
+                    <input type="number" id="quantity_chicken_burger" name="quantity_chicken_burger" min="1" value="1">
+                    <input type="submit" value="Add to Cart">
+                </form>
+            </div>
+            <div class="menu-item">
+                <h3>Veg Burger</h3>
+                <p>Juicy Veg patty with fresh veggies and sauce.</p>
+                <form class="order-form" action="#" method="post">
+                    <label for="quantity_veg_burger">Quantity:</label>
+                    <input type="number" id="quantity_veg_burger" name="quantity_veg_burger" min="1" value="1">
+                    <input type="submit" value="Add to Cart">
+            </div>
+            <div class="menu-item">
+                <h3>Pizza</h3>
+                <p>Delicious pizza with a variety of toppings to choose from.</p>
+                <form class="order-form" action="#" method="post">
+                    <label for="quantity_pizza">Quantity:</label>
+                    <input type="number" id="quantity_pizza" name="quantity_pizza" min="1" value="1">
+                    <input type="submit" value="Add to Cart">
+            </div>
+            <div class="menu-item">
+                <h3>Fries</h3>
+                <p>Potato fries with piri topping.</p>
+                <form class="order-form" action="#" method="post">
+                    <label for="quantity_fries">Quantity:</label>
+                    <input type="number" id="quantity_fries" name="quantity_fries" min="1" value="1">
+                    <input type="submit" value="Add to Cart">
+            </div>
+            <div class="menu-item">
+                <h3>Aloo Tiki</h3>
+                <p>Perfectly friends allo's with fresh veggies .</p>
+                <form class="order-form" action="#" method="post">
+                    <label for="quantity_aloo_tiki">Quantity:</label>
+                    <input type="number" id="quantity_aloo_tiki" name="quantity_aloo_tiki" min="1" value="1">
+                    <input type="submit" value="Add to Cart">
+            </div>
+            <div class="menu-item">
+                <h3>Fried Rice</h3>
+                <p>Fried rice with fresh veggies in olive oil.</p>
+                <form class="order-form" action="#" method="post">
+                    <label for="quantity_fried_rice">Quantity:</label>
+                    <input type="number" id="quantity_fried_rice" name="quantity_fried_rice" min="1" value="1">
+                    <input type="submit" value="Add to Cart">
+            </div>
+            <div class="menu-item">
+                <h3>Veg Biryani</h3>
+                <p>Veg biryani is an aromatic rice dish made with rice, veggies & spices. </p>
+                <form class="order-form" action="#" method="post">
+                    <label for="quantity_veg_biryani">Quantity:</label>
+                    <input type="number" id="quantity_veg_biryani" name="quantity_veg_biryani" min="1" value="1">
+                    <input type="submit" value="Add to Cart">
+            </div>
+            <div class="menu-item">
+                <h3>Chicken Biryani</h3>
+                <p>Chicken biryani is a rice dish made tender chicken, veggies & spices </p>
+                <form class="order-form" action="#" method="post">
+                    <label for="quantity_chicken_biryani">Quantity:</label>
+                    <input type="number" id="quantity_chicken_biryani" name="quantity_chicken_biryani" min="1" value="1">
+                    <input type="submit" value="Add to Cart">
+            </div>
+        </div>
+    </section>
+
+    <section id="specials">
+        <h2>Specials</h2>
+        <p>Check out our daily specials for extra tasty treats!</p>
+        <div class="menu-item">
+            <h3>Veg Burger</h3>
+            <p>Juicy veg patty with fresh veggies & sauce.</p>
+            <form class="order-form" action="#" method="post">
+                <label for="quantity_special_veg_burger">Quantity:</label>
+                <input type="number" id="quantity_special_veg_burger" name="quantity_special_veg_burger" min="1" value="1">
+                <input type="submit" value="Add to Cart">
+            </form>
+        </div>
+        <div class="menu-item">
+            <h3>Chicken Biryani</h3>
+            <p>Chicken biryani is a rice dish made with tender chicken, veggies & spices </p>
+            <form class="order-form" action="#" method="post">
+                <label for="quantity_special_chicken_biryani">Quantity:</label>
+                <input type="number" id="quantity_special_chicken_biryani" name="quantity_special_chicken_biryani" min="1" value="1">
+                <input type="submit" value="Add to Cart">
+                </form>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We take pride in serving high-quality, tasty meals to our college community. Our canteen is a favorite spot for students to grab a quick and satisfying bite.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us!</p>
+            </div><p>Email: <a href="mailto:yourcollegecanteen@gmail.com">yourcollegecanteen@gmail.com</a></p>
+        </div><p>Phone: <i class="fas fa-phone"></i> <a href="tel:080-12345678">080-12345678</a></p>
+        </section>
+
+    <div class="cart" id="cart">
+        <h2>Cart</h2>
+        <div id="cart-items"></div>
+    </div>
+    <script src="index.js"></script>    
+</body>
+</html>
